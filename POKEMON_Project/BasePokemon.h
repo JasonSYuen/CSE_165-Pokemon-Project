@@ -15,6 +15,7 @@ public:
     int sp_atk;
     int sp_def;
     int speed;
+    string status;
     virtual void speak() = 0;
 
     void stats()
